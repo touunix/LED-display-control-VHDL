@@ -17,9 +17,9 @@ The youngest digit with dots: 1
 <img src="https://user-images.githubusercontent.com/79804729/160258638-a4111d94-b983-4d43-8ad9-e01bb56824d9.gif" width="90%"></img> 
 
 ###### Files description
-- top_display.vhd - display control on individual segments of the display
-- top_divider.vhd -
-- top_encoder.vhd -
+- top_display.vhd - VHDL file with display control of individual segments of the display
+- top_divider.vhd - VHDL file with frequency divider
+- top_encoder.vhd - VHDL file with coding of the entered bits and sending for display
 - tb.vhd - testbench file
 - iup6.xdc - file with constraints for the Nexys-A7 board (FPGA xc7a100tcsg324-1)
 
@@ -43,4 +43,8 @@ Najmłodsza cyfra przedstawiona za pomocą kropek: 1
 <img src="https://user-images.githubusercontent.com/79804729/160258638-a4111d94-b983-4d43-8ad9-e01bb56824d9.gif" width="90%"></img> 
 
 ###### Opis plików
-
+- top_display.vhd - plik VHDL z sterowaniem wyświetlania na poszczególnych segmentach wyświetlacza
+- top_divider.vhd - plik VHDL z dzielnikiem częstotliwości
+- top_encoder.vhd - plik VHDL z kodowaniem wprowadzonych bitów oraz przekazanie do wyświetlenia 
+- tb.vhd - plik testbench
+- iup6.xdc - plik z ograniczeniami projektowymi dla płytki Nexys-A7 (układ FPGA xc7a100tcsg324-1)
