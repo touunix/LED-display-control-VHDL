@@ -4,7 +4,7 @@ The system allows you to control the LED display. The main purpose of the exerci
 
 Student's index number in decimal form: 181329
 Student Index Number in hexadecimal format: 2C451
-The oldest 4 digits displayed on the 2ch 7 - segments: C45
+The oldest 4 digits displayed on the 7 - segments: C45
 The youngest digit with dots: 1
 
 ###### Buttons tasks
